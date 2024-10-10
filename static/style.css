@@ -1,0 +1,423 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+html {
+    height: 100%;
+    width: 100%;
+
+
+}
+
+body {
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+
+
+.main {
+
+    background-attachment: fixed;
+    background-size: 200vh 100vh;
+    width: 100%;
+    height: 100%;
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+    background-image: url(https://perustat.com/wp-content/uploads/2020/06/contact-background.jpg);
+}
+
+header {
+    background-color: rgb(65, 252, 227);
+    width: 100%;
+}
+
+nav {
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 6vh;
+    width: 100%;
+
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+}
+
+.nav0 ul {
+    display: flex;
+    gap: 25px;
+    padding-right: 31px;
+}
+
+.nav3 ul li {
+    list-style: none;
+}
+
+.nav3 ul li a {
+    text-decoration: none;
+
+}
+
+.nav0 i {
+    display: none;
+}
+
+.welcome {
+    display: inline;
+
+
+}
+
+.about {
+    display: flex;
+    position: absolute;
+
+
+    top: 4.5vh;
+
+}
+
+.about img {
+    margin-left: 10px;
+    height: 9vh;
+    top: 0;
+
+}
+
+.about_1 {
+    position: absolute;
+    top: 11vh;
+
+}
+
+.about_1 img {
+    margin-left: 28px;
+    height: 14vh;
+    border-radius: 40px 2px 46px 0px;
+
+
+}
+
+.about_2 {
+    top: 30px;
+    text-align: center;
+    position: relative;
+
+
+
+}
+
+.about_2 h1 {
+    color: greenyellow;
+    font-size: 59px;
+}
+
+.about_2 h2 {
+    color: greenyellow;
+    font-size: 39px;
+
+
+}
+
+.about_2 h3 {
+    color: greenyellow;
+    font-size: 29px;
+
+
+}
+
+.headers {
+    display: flex;
+    width: 100%;
+    top: 70px;
+    position: relative;
+
+
+}
+
+.about_yourself {
+    color: white;
+    width: 100%;
+    margin-left: 10px;
+    top: 70px;
+    position: relative;
+    padding-right: 40px;
+
+
+}
+
+.about_yourself h1 {
+    text-align: center;
+
+
+}
+
+.about_details {
+    color: white;
+    margin-left: 107px;
+    margin-right: 48px;
+}
+
+
+.about_pic {
+    width: 100%;
+    float: right;
+    text-align: center;
+
+}
+
+.about_pic img {
+
+    height: 40vh;
+    border-radius: 50px 10px 50px 10px;
+}
+
+.profile {
+    font-size: large;
+    color: rgb(157, 243, 8);
+
+}
+
+.ref {
+    color: greenyellow;
+    font-size: 27px;
+    padding-left: 40px;
+
+}
+
+.references li {
+
+    text-decoration: none;
+    list-style: none;
+}
+
+.references li a {
+    color: white;
+    text-decoration: none;
+
+}
+
+.references li a:hover {
+    color: greenyellow;
+    font-weight: bolder;
+    text-decoration: underline;
+}
+
+.forms {
+    margin-left: 40px;
+    margin-top: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: larger;
+
+}
+
+form label {
+    display: block;
+    padding-top: 15px;
+}
+
+form label input {
+    font-size: large;
+    margin-bottom: 10px;
+    margin-left: 10px;
+
+}
+
+form button {
+
+    font-size: large
+}
+
+.Signup a {
+    text-decoration: none;
+}
+
+#numbers {
+    font-size: 18px;
+    margin-left: 10px;
+}
+
+/* Achivement */
+
+.achivement_1 h1 {
+    text-align: center;
+    margin: 20px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    text-decoration: underline;
+}
+
+.certi {
+    display: flex;
+    width: 100%;
+
+}
+
+.certi ul li {
+    float: left;
+    margin-left: 22px;
+    list-style: none;
+
+}
+
+
+.certi li img {
+    aspect-ratio: 1.0/1;
+    height: 78vh;
+    border: 2px solid black;
+
+
+}
+
+
+/* About */
+
+.all_achivement {
+    width: 100%;
+    height: 100%;
+
+}
+
+.achivement_certificate {
+    width: 100%;
+
+}
+
+.achivement {
+    color: rgb(236, 245, 245);
+    text-align: center;
+    padding-top: 50px;
+}
+
+.achive_pic {
+
+    width: 100%;
+    height: 100%;
+    padding-top: 403px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(https://png.pngtree.com/png-vector/20190303/ourlarge/pngtree-achievement-word-business-in-light-bulb-png-image_720683.jpg);
+
+
+}
+
+.all_achivement .achivement_certificate,
+.achive_pic {
+    width: 50%;
+    float: left;
+
+}
+
+.achivement h1 {
+    color: rgb(56, 244, 203);
+    text-decoration: underline;
+
+}
+
+.achivement h2 {
+    color: rgb(140, 250, 37);
+    text-decoration: underline;
+    padding-top: 32px;
+}
+
+.achivement h3 {
+    padding-top: 45px;
+    color: rgb(236, 247, 118);
+}
+
+.achivement p {
+    font-size: x-large;
+}
+
+.achivement {
+    background-image: url(https://tse3.mm.bing.net/th?id=OIP.s-Iy0IHTdx6rYEyt7l9ybgHaE8&pid=Api&P=0);
+    background-size: 100vh 100vh;
+}
+
+.certificate {
+    background-image: url(https://tse3.mm.bing.net/th?id=OIP.9OmWDyNJTz-er8J2yyuSZQAAAA&pid=Api&P=0);
+    background-attachment: fixed;
+    background-size: 100vh 0vh;
+    color: rgb(232, 251, 85);
+    text-align: center;
+    text-decoration-line: underline;
+    margin: 46px 64px 525px;
+}
+
+.certificate img {
+    padding-bottom: 105px;
+    margin-left: 431px;
+
+}
+
+.certificate h3 {
+    color: rgb(135, 242, 29);
+    padding-top: 15px;
+    font-size: x-large;
+    text-decoration-line: initial;
+    border: 2px solid;
+    border-radius: 15px;
+
+}
+
+.certificate a:hover {
+
+    color: rgb(216, 233, 85);
+    font-weight: bold;
+    font-size: x-large;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer {
+    margin-top: auto;
+    width: 100%;
+    height: 4.5vh;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.copyright p {
+    font-size: medium;
+
+}
