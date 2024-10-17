@@ -7,12 +7,6 @@ from django.contrib.auth.decorators import login_required
 from django.contrib.admin.views.decorators import staff_member_required
 
 
-@login_required(login_url="/login")
-def resume(request):
-    try:
-        return FileResponse(open('Sushant resume .pdf', 'r'), content_type='pdf')
-    except FileNotFoundError:
-        raise Http404()
 
 def home(request):
     data={
@@ -25,6 +19,13 @@ def achivement(request):
         'title':'Achivement'
     }
     return render(request,"achivement.html",data)
+
+@login_required(login_url="/login")
+def resume(request):
+    try:
+        return FileResponse(open('Sushant resume .pdf', 'r'), content_type='pdf')
+    except FileNotFoundError:
+        raise Http404()
 
 def loginPage(request):
     data={

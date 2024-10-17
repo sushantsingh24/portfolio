@@ -881,10 +881,10 @@
     }
 
     .about_2 {
-        top: 12px;
+        top: 34px;
         text-align: center;
         position: relative;
-        display: b'';
+        
         display: block;
         height: 0;
     }
@@ -894,6 +894,7 @@
     .about_2 h1 {
         color: greenyellow;
         font-size: 41px;
+        margin-top: 0px;
     }
 
     .about_2 h2 {
@@ -921,13 +922,14 @@
         color: white;
         width: 100%;
         margin-left: 0;
-        top: 0;
+        top: 38px;
         position: relative;
         padding-right: 0;
     }
 
     .about_yourself h1 {
         text-align: center;
+        margin-bottom: 10px;
 
 
     }
@@ -936,6 +938,7 @@
         color: white;
         margin-left: 19px;
         margin-right: 5px;
+        margin-bottom: -72px;
     }
 
 
@@ -948,7 +951,7 @@
 
     .about_pic img {
         position: relative;
-        top: 3px;
+        top: 134px;
         height: 34vh;
         border-radius: 50px 10px 50px 10px;
     }
@@ -956,7 +959,9 @@
     .profile {
         font-size: large;
         color: rgb(157, 243, 8);
-
+        padding: auto;
+        position: relative;
+        top: 155px;
     }
 
     .ref {
