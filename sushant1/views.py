@@ -5,7 +5,7 @@ from django.contrib.auth.models import User
 from django.contrib.auth import authenticate,login,logout
 from django.contrib.auth.decorators import login_required
 from django.contrib.admin.views.decorators import staff_member_required
-
+from sushant1.models import *
 
 
 def home(request):
@@ -15,10 +15,10 @@ def home(request):
     return render(request,"index.html",data)
 @login_required(login_url="/login")
 def achivement(request):
-    data={
-        'title':'Achivement'
-    }
-    return render(request,"achivement.html",data)
+   data={
+    'title':'achivement'
+   }
+   return render(request,"achivement.html",data)
 
 @login_required(login_url="/login")
 def resume(request):

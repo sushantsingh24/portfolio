@@ -46,16 +46,19 @@ nav {
 
 }
 
-.logo {
+.logo img {
     display: flex;
     align-items: center;
-    padding-left: 20px;
+    margin-bottom: -11px;
+    margin-left: 31px;
+
 }
 
 .nav0 ul {
     display: flex;
     gap: 25px;
     padding-right: 31px;
+    padding-top: 21px;
 }
 
 .nav3 ul li {
@@ -64,6 +67,7 @@ nav {
 
 .nav3 ul li a {
     text-decoration: none;
+    color: black;
 
 }
 
@@ -80,9 +84,8 @@ nav {
 .about {
     display: flex;
     position: absolute;
-
-
-    top: 4.5vh;
+    top: 5.7vh;
+    margin-left: 0px;
 
 }
 
@@ -281,46 +284,21 @@ form button {
 
 /* About */
 
-.all_achivement {
-    width: 100%;
-    height: 100%;
 
-}
 
-.achivement_certificate {
-    width: 100%;
-
-}
-
-.achivement {
-    color: rgb(236, 245, 245);
-    text-align: center;
-    padding-top: 50px;
-}
 
 .achive_pic {
 
-    width: 100%;
-    height: 100%;
-    padding-top: 403px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
     background-image: url(https://png.pngtree.com/png-vector/20190303/ourlarge/pngtree-achievement-word-business-in-light-bulb-png-image_720683.jpg);
 
 
 }
 
-.all_achivement .achivement_certificate,
-.achive_pic {
-    width: 50%;
-    float: left;
-
-}
 
 .achivement h1 {
     color: rgb(56, 244, 203);
     text-decoration: underline;
+    padding-top: 21px;
 
 }
 
@@ -337,6 +315,7 @@ form button {
 
 .achivement p {
     font-size: x-large;
+    color: wheat;
 }
 
 .achivement {
@@ -351,7 +330,7 @@ form button {
     color: rgb(232, 251, 85);
     text-align: center;
     text-decoration-line: underline;
-    margin: 46px 64px 525px;
+   margin-bottom: 20px;
 }
 
 .certificate img {
@@ -408,7 +387,7 @@ form button {
 footer {
     margin-top: auto;
     width: 100%;
-    height: 4.5vh;
+    height: 6.5vh;
     background-color: black;
     color: white;
     display: flex;
@@ -416,8 +395,15 @@ footer {
     justify-content: center;
 
 }
+.footer1{
+    width: 100%;
+    margin-top: 90px;
+ 
+}
 
 .copyright p {
     font-size: medium;
+    margin: 0;
+    padding: 0;
 
 }
