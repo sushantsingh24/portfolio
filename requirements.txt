@@ -36,9 +36,7 @@ jsonschema-specifications==2024.10.1
 jupyter_client==8.6.3
 jupyter_core==5.7.0
 jupyterlab_pygments==0.3.0
-Kivy==2.3.0
 
-Kivy-Garden==0.1.5
 
 MarkupSafe==3.0.1
 matplotlib-inline==0.1.7
