@@ -4,29 +4,39 @@
 
 <body>
 
-
+ <div class="container">
 
     <div class="forms">
 
         <form action="" method='POST'>
             {% csrf_token %}
-            <label class="userid"> User Id:-
-                <input type="text" value="" name="Username" placeholder="Enter your userid or numberor email">
-            </label>
-            <label class="password"> Password:-
-                <input type="password" value="" name="Password" placeholder="Enter your Password">
-            </label>
-            <button type="submit">Login</button>
-            <label><a href="http://">Forget Password</a></label>
+            <form>
+                <div class="row mb-3">
+                  <label for="inputEmail3" class="col-sm-2 col-form-label">User Id:- </label>
+                  <div class="col-sm-10">
+                    <input  class="form-control" id="inputEmail3" type="text" value="" name="Username" placeholder="Enter your userid or numberor email">
+                    
+                  </div>
+                </div>
+                <div class="row mb-3">
+                  <label for="inputPassword3" class="col-sm-2 col-form-label">Password</label>
+                  <div class="col-sm-10">
+                    <input type="password" value="" name="Password" placeholder="Enter your Password" class="form-control" id="inputPassword3">
+                
+                    
+                  </div>
+                </div>
+               
+             
+            
+                
+                <label><a style="text-decoration:none;" href="http://">Forget Password</a></label>
+                <button type="submit" class="btn btn-success">Login</a></button>
+                <button  type="submit" class="btn btn-primary"><a  style="color: white; text-decoration: none;" href="{%url 'signup'%}">Singup</a></button>
+              </form>
 
+            </div>
 
-            <label> <button class="Signup" type="button">
-                    <a href="{%url 'signup'%}">Singup</a> </button></label>
-
-
-
-        </form>
-    </div>
 
 </body>
 

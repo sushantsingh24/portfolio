@@ -1,4 +1,4 @@
-@media screen and (max-width: 610px) {
+@media screen and (max-width: 630px) {
   .navbar {
     position: fixed;
     position: fixed;
@@ -49,7 +49,6 @@
     gap: 3rem;
     flex-direction: column;
     font-size: inherit;
- 
   }
 
   .nav0 i {
@@ -61,17 +60,20 @@
   }
 
   .nav0 .fa-xmark {
-   
-   
     color: rgb(250, 6, 14);
     align-items: center;
     justify-content: flex-end;
     height: 50px;
-  }
 
+    position: relative;
+    left: -3px;
+    top: -3px;
+
+  }
 
   .active {
     transform: translateX(0);
+    display: block;
   }
   .welcome {
     display: flex;
@@ -82,61 +84,78 @@
   .about {
     display: flex;
     position: absolute;
-    top: 5.7vh;
+    top: 5.1vh;
     margin-left: 23px;
   }
   .about_2 {
     display: flex;
     flex-direction: column;
     position: relative;
-    top: 90%;
+    top: 100%;
   }
   .about_2 h1 {
     color: greenyellow;
     font-size: 34px;
-    padding-top: 26px;
+    padding-top: 13px;
   }
-  
-.about_2 h2 {
+
+  .about_2 h2 {
     color: greenyellow;
     font-size: 22px;
+  }
+  .about_yourself {
+    width: 100%;
 }
-.about_2 h3 {
+.about_pic {
+  width: 100%;
+}
+  .about_2 h3 {
     color: greenyellow;
     font-size: 22px;
-}
+  }
   .headers {
     display: flex;
     flex-direction: column;
     position: relative;
-    top: 27px;
+    top: 70px;
   }
   .about_pic {
     display: block;
     position: relative;
-    top: 26%;
+    top: 23%;
   }
   .profile {
     font-size: 18px;
     color: rgb(157, 243, 8);
-}
-.profile h4 {
+  }
+  .profile h4 {
     font-size: 13px;
     color: rgb(157, 243, 8);
-}
+  }
+    .profile h3 {
+        font-size: 20px;
+        color: rgb(157, 243, 8);
+    }
   .ref {
     display: flex;
     flex-direction: column;
     position: relative;
-    top: 22%;
-    font-size: 12px;
-    padding-left: 12px;
+    top: 28%;
+    font-size: 13px;
+    padding-left: 13px;
     margin-top: 10px;
+    padding-right: 11px;
+  
+
   }
-   .ref h1{
-   font-size: 2rem;
-   
+  .ref h1 {
+    font-size: 1.3rem;
   }
+  .ref {
+    color: greenyellow;
+    font-size: 15px;
+    padding-left: 21px;
+}
   .about_yourself {
     color: white;
     width: 100%;
@@ -145,24 +164,38 @@
     position: relative;
     padding-right: 0px;
   }
-    
-.about_yourself h1 {
-    text-align: center;
+  .about_1 img {
+    margin-left: 28px;
+    height: 12vh;
+    border-radius: 20px 2px 20px 2px;
+}
+
+  .about_yourself h1 {
+    text-align: start;
     font-size: 22px;
+    padding-left: 22px;
   }
   .about_details {
     color: white;
     margin-left: 25px;
     margin-right: 12px;
-}
-  
+  }
+
   .references li {
     text-decoration: none;
     list-style: none;
     padding-top: 4px;
     margin-left: 0;
     margin-right: 0;
-}
+  }
+  .forms {
+    margin-left: 21px;
+    margin-right: 25px;
+    margin-top: 40px;
+    position: relative;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: larger;
+
   footer {
     margin-top: auto;
     width: 100%;
@@ -173,8 +206,9 @@
     align-items: center;
     justify-content: center;
     position: relative;
-    top: 25%;
+    top: 21%;
   }
+  
 
   .copyright p {
     font-size: medium;
@@ -186,3 +220,437 @@
     color: black;
   }
 }
+
+
+@media only screen and (orientation: landscape) and (min-width: 611px) and  (max-width: 881px){
+
+  .main {
+    background-attachment: fixed;
+    background-size: 229vh 100vh;
+    width: 100%;
+    height: 100%;
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+    background-image: url(https://perustat.com/wp-content/uploads/2020/06/contact-background.jpg);
+}
+
+nav {
+  display: inline-flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 6vh;
+  width: 100%;
+  position: relative;
+  top: 3px;
+}
+.about_pic img {
+  height: 28vh;
+  border-radius: 50px 10px 50px 10px;
+}
+.about_pic img {
+height: 32vh;
+border-radius: 50px 10px 50px 10px;
+}
+.about_pic{
+width: 100%;
+
+  padding-left: 90px;
+  margin-top: 44px;
+
+
+}
+.about_1 img {
+  
+    margin-left: 24px;
+    height: 12vh;
+    border-radius: 11px 2px 11px 2px;
+    position: relative;
+    top: 10px;
+
+}
+
+.about {
+
+ 
+    display: flex;
+    position: absolute;
+    top: 9.3vh;
+    margin-left: 9px;
+
+
+}
+.about_2 h1 {
+color: greenyellow;
+font-size: 40px;
+}
+.about_2 h2 {
+color: greenyellow;
+font-size: 22px;
+}
+.about_2 h3 {
+color: greenyellow;
+font-size: 22px;
+}
+.about img {
+margin-left: 5px;
+height: 8vh;
+top: 0;
+}
+.about_yourself h1 {
+font-size: 23px;
+text-align: start;
+padding-left: 35px;
+}
+.profile h3{
+font-size: large;
+}
+.profile h4{
+font-size: small;
+}
+.about_details{
+color: white;
+  margin-left: 35px;
+  margin-right: 0px;
+
+}
+.about_yourself{
+
+  width: 100%;
+}
+.headers {
+display: flex;
+flex-direction: row;
+position: relative;
+top: 20px;
+}
+
+.about_pic img {
+    height: 32vh;
+    border-radius: 22px 2px 22px 2px;
+}
+.welcome{
+display: block;
+}
+.about_2 {
+  
+  width: 100%;
+  margin-top: auto;
+  top: 6vh;
+  margin: 0;
+  padding: 0;
+
+}
+
+footer {
+  margin-top: auto;
+  width: 100%;
+  /* height: 4.5vh; */
+  background-color: rgb(9, 241, 210);
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  /* top: 10%; */
+}
+.ref {
+color: greenyellow;
+font-size: 15px;
+padding-left: 21px;
+position: relative;
+top: 7vh;
+}
+.references li {
+text-decoration: none;
+list-style: none;
+padding-top: 4px;
+margin-left: 0;
+margin-right: 0;
+}
+.footer1 {
+width: 100%;
+margin-top: auto;
+height: auto;
+}
+.headers {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  top: auto;
+  height: auto;
+}
+
+footer {
+margin-top: auto;
+width: 100%;
+height: 4.5vh;
+background-color: rgb(9, 241, 210);
+color: white;
+display: flex;
+align-items: center;
+justify-content: center;
+position: relative;
+top: 10%;
+}
+}
+
+@media only screen and (orientation: portrait) and (min-width: 611px) and (max-width: 881px) {
+  .about_pic img {
+    height: 28vh;
+    border-radius: 50px 10px 50px 10px;
+  }
+.about_pic img {
+  height: 32vh;
+  border-radius: 50px 10px 50px 10px;
+}
+.about_pic{
+  width: 100%;
+  
+    padding-left: 90px;
+    margin-top: 44px;
+
+
+}
+.about_1 img {
+  margin-left: 28px;
+  height: 11vh;
+  border-radius: 21px 2px 21px 0px;
+}
+
+.about {
+
+    display: flex;
+    position: absolute;
+    top: 6.4vh;
+    margin-left: 6px;
+}
+
+.about_2 h1 {
+  color: greenyellow;
+  font-size: 40px;
+}
+.about_2 h2 {
+  color: greenyellow;
+  font-size: 22px;
+}
+.about_2 h3 {
+  color: greenyellow;
+  font-size: 22px;
+}
+.about img {
+  margin-left: 5px;
+  height: 8vh;
+  top: 0;
+}
+.about_yourself h1 {
+  font-size: 23px;
+  text-align: start;
+  padding-left: 35px;
+}
+.profile h3{
+  font-size: large;
+}
+.profile h4{
+  font-size: small;
+}
+.about_details{
+  color: white;
+    margin-left: 35px;
+    margin-right: 0px;
+
+}
+.about_yourself{
+  
+    width: 100%;
+}
+.headers {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  top: 20px;
+}
+
+  .about_pic img {
+      height: 32vh;
+      border-radius: 22px 2px 22px 2px;
+  }
+.welcome{
+  display: block;
+}
+.about_2 {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  top: 4%;
+}
+.about_1 img {
+  margin-left: 28px;
+  height: 11vh;
+  border-radius: 21px 2px 21px 0px;
+  position: relative;
+  top: 5px;
+}
+.ref {
+  color: greenyellow;
+  font-size: 15px;
+  padding-left: 21px;
+  position: relative;
+  top: 7vh;
+}
+.references li {
+  text-decoration: none;
+  list-style: none;
+  padding-top: 4px;
+  margin-left: 0;
+  margin-right: 0;
+}
+.footer1 {
+  width: 100%;
+  margin-top: auto;
+}
+
+footer {
+  margin-top: auto;
+  width: 100%;
+  height: 4.5vh;
+  background-color: rgb(9, 241, 210);
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  top: 10%;
+}
+}
+
+
+@media only screen and (min-width: 880px) and (max-width: 1100px) {
+  .about_pic img {
+    height: 28vh;
+    border-radius: 50px 10px 50px 10px;
+  }
+.about_pic img {
+  height: 32vh;
+  border-radius: 50px 10px 50px 10px;
+}
+.about_pic{
+  width: 100%;
+  
+    padding-left: 90px;
+    margin-top: 44px;
+
+
+}
+.about_1 img {
+  margin-left: 28px;
+  height: 11vh;
+  border-radius: 21px 2px 21px 0px;
+}
+
+.about {
+
+    display: flex;
+    position: absolute;
+    top: 6.4vh;
+    margin-left: 6px;
+}
+
+.about_2 h1 {
+  color: greenyellow;
+  font-size: 40px;
+}
+.about_2 h2 {
+  color: greenyellow;
+  font-size: 22px;
+}
+.about_2 h3 {
+  color: greenyellow;
+  font-size: 22px;
+}
+.about img {
+  margin-left: 5px;
+  height: 8vh;
+  top: 0;
+}
+.about_yourself h1 {
+  font-size: 23px;
+  text-align: start;
+  padding-left: 35px;
+}
+.profile h3{
+  font-size: large;
+}
+.profile h4{
+  font-size: small;
+}
+.about_details{
+  color: white;
+    margin-left: 35px;
+    margin-right: 0px;
+
+}
+.about_yourself{
+  
+    width: 100%;
+}
+.headers {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  top: 20px;
+}
+
+  .about_pic img {
+      height: 32vh;
+      border-radius: 22px 2px 22px 2px;
+  }
+.welcome{
+  display: block;
+}
+.about_2 {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  top: 4%;
+}
+.about_1 img {
+  margin-left: 28px;
+  height: 11vh;
+  border-radius: 21px 2px 21px 0px;
+  position: relative;
+  top: 5px;
+}
+.ref {
+  color: greenyellow;
+  font-size: 15px;
+  padding-left: 21px;
+  position: relative;
+  top: 7vh;
+}
+.references li {
+  text-decoration: none;
+  list-style: none;
+  padding-top: 4px;
+  margin-left: 0;
+  margin-right: 0;
+}
+.footer1 {
+  width: 100%;
+  margin-top: auto;
+}
+
+footer {
+  margin-top: auto;
+  width: 100%;
+  height: 4.5vh;
+  background-color: rgb(9, 241, 210);
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  top: 10%;
+}
+}
+

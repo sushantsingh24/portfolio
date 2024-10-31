@@ -143,6 +143,7 @@ nav {
     width: 100%;
     top: 70px;
     position: relative;
+    flex-direction: row;
 
 
 }
